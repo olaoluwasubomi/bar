@@ -1,0 +1,110 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    width:100%;
+    height:100vh;
+}
+.main{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:95%;
+    /* background:red; */
+    justify-content: space-between;
+    margin:15px auto 0;
+}
+a{
+    display:block;
+}
+.main-1{
+    display:flex;
+    width:43%;
+    justify-content:space-between;
+    position:relative;
+    align-items:center;
+}
+.one li{
+    list-style:none;
+    text-transform:capitalize;
+    cursor: pointer;
+    /* background:rgb(224, 116, 116); */
+    padding:15px 20px;
+}
+.one li:hover{
+    background:brown;
+}
+.flex{
+    position:absolute;
+    display:flex;
+    margin-top:20px;
+    width:100%;
+    justify-content:space-between;
+    background:rgb(68, 55, 55);
+    display:none;
+}
+.one li:hover .flex{
+    display:flex;
+    width:100%;
+    justify-content:center;
+    justify-content: space-between;
+    padding:10px 0;
+}
+.flex div{
+    margin-left:10px;
+    width:100%;
+}
+.flex p{
+    text-transform:capitalize;
+    font-size:16px;
+    color:blanchedalmond;
+    margin-top:30px;
+    /* width:100%; */
+}
+.flex a{
+    display:block;
+    color:#fff;
+    margin-top:8px;
+    text-decoration:none;
+}
+.flex a:hover{
+    background:rgb(122, 121, 121);
+}
+.two-1{
+    background:pink;
+    border-radius:50px;
+    padding:10px 20px;
+    text-transform:capitalize;
+    color:black;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:500;
+    text-align:center;
+}
+.two-1 span , .list span{
+    border:1px solid black;
+    border-radius:50px;
+    background:#fff;
+    display:inline-block;
+    margin-left:5px;
+    padding:0 5px;
+}
+.two p{
+    text-transform:capitalize;
+    font-size:15px;
+    /* padding-top:10px; */
+}
+.logo{
+    display:inline-block;
+    text-decoration:none;
+    text-transform:capitalize;
+    color:#fff;
+    background:green;
+    border-radius:50px;
+    padding:8px 25px;
+}
+.text{
+    display:none;
+}
